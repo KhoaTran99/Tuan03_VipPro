@@ -53,5 +53,13 @@ namespace Tuan03_mssv
         {
             this.Close(); // đóng file
         }
+
+        private void trợGiúpToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // KHỞI TẠO FORM
+            FormThongTin thongTin = new FormThongTin();
+
+            thongTin.ShowDialog();
+        }
     }
 }
